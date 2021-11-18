@@ -1,5 +1,5 @@
 const collapsibleItems = document.querySelectorAll('.collapsible__item')
-console.log(collapsibleItems);
+console.log(collapsibleItems)
 collapsibleItems.forEach((item) =>{
     const collapsibleHeader = item.querySelector('.collapsible__header')
     collapsibleHeader.addEventListener('click', () =>{
