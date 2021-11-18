@@ -82,12 +82,6 @@ body {
   left: 0;
   border-radius: .25rem 0 0 .25rem;
 }
-.collapsible__icon {
-  font-size: 1.5rem;
-  height: max-content;
-  color: var(--title-color);
-  transition: .3s;
-}
 
 .collapsible-open .collapsible__icon {
   transform: rotate(45deg);
